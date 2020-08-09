@@ -3,11 +3,13 @@ const db = require('../db');
 
 const router = express.Router();
 
+
+//TEST
 router.get('/', async (req,res,next) =>{
 
     try{
         let results = await db.all();
-        res.Status(200).json(results);
+        res.status(200).json(results);
 
     }catch(e){
         console.log(e);
@@ -16,10 +18,11 @@ router.get('/', async (req,res,next) =>{
 
 });
 
-router.get('/:id', async (req,res,next) =>{
+//TEST
+router.get('/no/:id', async (req,res,next) =>{
 
     try{
-        let results = await db.one(req.param.id);
+        let results = await db.one(req.params.id);
         res.json(results);
 
     }catch(e){
@@ -29,11 +32,18 @@ router.get('/:id', async (req,res,next) =>{
 
 });
 
+
+
+
+//       ____________________
+//______/ Create a new repo
+
 router.post('/init/:name', async (req,res,next) =>{
 
     try{
-        let results = await db.init(req.param.user,req.param.name);
-        res.Status(200).json(results);
+        let results = await db.init(req.params.name);
+        res.status(200).json(results);
+        //res.send(req.params.name)
 
     }catch(e){
         console.log(e);
@@ -42,11 +52,16 @@ router.post('/init/:name', async (req,res,next) =>{
 
 });
 
-router.post('/:name/:data/:dic/:msg', async (req,res,next) =>{
+
+
+//       _____________________________
+//______/Commit (one file at a time)
+
+router.post('/commit/:filename/:data/:dic/:msg', async (req,res,next) =>{
 
     try{
-        let results = await db.commitFile(req.param.name,req.param.data,req.param.dic,req.param.msg);
-        res.Status(200).json(results);
+        let results = await db.commitFile(req.params.filename,req.params.data,req.params.dic,req.params.msg);
+        res.status(200).json(results);
 
     }catch(e){
         console.log(e);
@@ -54,5 +69,79 @@ router.post('/:name/:data/:dic/:msg', async (req,res,next) =>{
     }
 
 });
+
+
+
+
+//       _________________________________
+//______/ Status on last commit, all files
+
+router.get('/status', async (req,res,next) =>{
+
+    try{
+        let results = await db.userStatus();
+        res.status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+
+
+//       ________________________________
+//______/ Status on one file, all commits
+
+router.get('/status/:filename', async (req,res,next) =>{
+
+    try{
+        let results = await db.fileStatus(req.params.filename);
+        res.status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+
+
+//       _____________________________
+//______/
+
+router.get('/rollback/:filename/:commit', async (req,res,next) =>{
+
+    try{
+        let results = await db.rollback(req.params.filename,req.params.commit);
+        res.status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+
+//       __________________________________________________
+//______/ Brings the newest version of a file (rest n sync)
+
+router.get('/newest/:filename', async (req,res,next) =>{
+
+    try{
+        let results = await db.newestFile(req.params.filename);
+        res.status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+
 
 module.exports = router;

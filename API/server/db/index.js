@@ -48,11 +48,15 @@ GOTdb.one = (id) => {
 
 };
 
+
+//       _________________
+//______/ init <name>
+
 GOTdb.init = (name) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`exec init @${user} @${name};`, (err,results)=>{
+        pool.query(`EXEC init @${user} @${name};`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -65,8 +69,10 @@ GOTdb.init = (name) => {
 
 };
 
+//       _________________
+//______/ commit <msg>
 
-GOTdb.commitFile = (filename,data,dic, msg) => {
+GOTdb.commitFile = (filename,data,dic,msg) => {
 
     return new Promise((resolve, reject)=> {
 
@@ -82,6 +88,10 @@ GOTdb.commitFile = (filename,data,dic, msg) => {
     });
 
 };
+
+//       ____________
+//______/ status
+
 
 GOTdb.userStatus = () => {
 
@@ -100,6 +110,9 @@ GOTdb.userStatus = () => {
 
 };
 
+//       _________________
+//______/ status <file>
+
 GOTdb.fileStatus = (filename) => {
 
     return new Promise((resolve, reject)=> {
@@ -117,8 +130,10 @@ GOTdb.fileStatus = (filename) => {
 
 };
 
+//       _________________
+//______/  rollback <filename> <commit>
 
-GOTdb.rollback = (filename, commit) => {  // Creo que se puede reciclar para reset <file>
+GOTdb.rollback = (filename, commit) => { 
 
     return new Promise((resolve, reject)=> {
 
@@ -135,7 +150,10 @@ GOTdb.rollback = (filename, commit) => {  // Creo que se puede reciclar para res
 
 };
 
-GOTdb.syncFile = (filename) => {
+//       __________________________
+//______/ rest <file> & sync <file>
+
+GOTdb.newestFile = (filename) => {
 
     return new Promise((resolve, reject)=> {
 
