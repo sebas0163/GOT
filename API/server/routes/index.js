@@ -7,7 +7,7 @@ router.get('/', async (req,res,next) =>{
 
     try{
         let results = await db.all();
-        res.json(results);
+        res.Status(200).json(results);
 
     }catch(e){
         console.log(e);
@@ -21,6 +21,32 @@ router.get('/:id', async (req,res,next) =>{
     try{
         let results = await db.one(req.param.id);
         res.json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+router.post('/init/:name', async (req,res,next) =>{
+
+    try{
+        let results = await db.init(req.param.user,req.param.name);
+        res.Status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+router.post('/:name/:data/:dic/:msg', async (req,res,next) =>{
+
+    try{
+        let results = await db.commitFile(req.param.name,req.param.data,req.param.dic,req.param.msg);
+        res.Status(200).json(results);
 
     }catch(e){
         console.log(e);
