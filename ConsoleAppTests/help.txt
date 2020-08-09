@@ -1,0 +1,10 @@
+LISTA DE COMANDOS
+got init <name> : Instanciar repositorio en el servidor con el nombre indicado
+got help :  Ayuda de comandos
+got add [-A][name] : Registra archivos al repositorio. Escribir -A para agregarlos a todos
+got commit <message> : Enviar los cambios de un archivo agregado con el mensaje especificado
+got status <file> : Ver cuales archivos han sido cambiados, agregados o eliminados desde el último commit
+got rollback <file> <commit> : Regresar el archivo especificado un commit específico
+got reset <file> : Deshacer cambios de un archivo y regresarlo al último commit
+got sync <file> : Recuperar cambios del archivo desde el server y hacer merge en caso de ser necesario
+
