@@ -1,0 +1,2523 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"build/_deps/curl-src/docs/libcurl/opts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "opts-pdf::@fe02a9ef8a74f0774785",
+	"name" : "opts-pdf",
+	"paths" : 
+	{
+		"build" : "_deps/curl-build/docs/libcurl/opts",
+		"source" : "build/_deps/curl-src/docs/libcurl/opts"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CMakeFiles/opts-pdf",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CMakeFiles/opts-pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_ACTIVESOCKET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_APPCONNECT_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_APPCONNECT_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CERTINFO.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONDITION_UNMET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONNECT_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONNECT_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_DOWNLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_DOWNLOAD_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_UPLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_UPLOAD_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_CONTENT_TYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_COOKIELIST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_EFFECTIVE_URL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_FILETIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_FILETIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_FTP_ENTRY_PATH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_HEADER_SIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_HTTPAUTH_AVAIL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_HTTP_CONNECTCODE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_HTTP_VERSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_LASTSOCKET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_LOCAL_IP.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_LOCAL_PORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_NAMELOOKUP_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_NAMELOOKUP_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_NUM_CONNECTS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_OS_ERRNO.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PRETRANSFER_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PRETRANSFER_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PRIMARY_IP.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PRIMARY_PORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PRIVATE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PROTOCOL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PROXYAUTH_AVAIL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_PROXY_SSL_VERIFYRESULT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_REDIRECT_COUNT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_REDIRECT_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_REDIRECT_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_REDIRECT_URL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_REQUEST_SIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_RESPONSE_CODE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_RETRY_AFTER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_RTSP_CLIENT_CSEQ.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_RTSP_CSEQ_RECV.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_RTSP_SERVER_CSEQ.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_RTSP_SESSION_ID.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SCHEME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SIZE_DOWNLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SIZE_DOWNLOAD_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SIZE_UPLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SIZE_UPLOAD_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SPEED_DOWNLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SPEED_DOWNLOAD_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SPEED_UPLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SPEED_UPLOAD_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SSL_ENGINES.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_SSL_VERIFYRESULT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_TLS_SESSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_TLS_SSL_PTR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_TOTAL_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLINFO_TOTAL_TIME_T.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_MAXCONNECTS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_MAX_CONCURRENT_STREAMS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_MAX_HOST_CONNECTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_MAX_PIPELINE_LENGTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_MAX_TOTAL_CONNECTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_PIPELINING.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_PIPELINING_SERVER_BL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_PIPELINING_SITE_BL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_PUSHDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_PUSHFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_SOCKETDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_SOCKETFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_TIMERDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLMOPT_TIMERFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ABSTRACT_UNIX_SOCKET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ACCEPTTIMEOUT_MS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ACCEPT_ENCODING.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ADDRESS_SCOPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ALTSVC.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ALTSVC_CTRL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_APPEND.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_AUTOREFERER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_BUFFERSIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CAINFO.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CAPATH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CERTINFO.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CHUNK_BGN_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CHUNK_DATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CHUNK_END_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CLOSESOCKETDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CLOSESOCKETFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONNECTTIMEOUT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONNECTTIMEOUT_MS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONNECT_ONLY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONNECT_TO.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONV_FROM_NETWORK_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONV_FROM_UTF8_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CONV_TO_NETWORK_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_COOKIE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_COOKIEFILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_COOKIEJAR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_COOKIELIST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_COOKIESESSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_COPYPOSTFIELDS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CRLF.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CRLFILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CURLU.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_CUSTOMREQUEST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DEBUGDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DEBUGFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DEFAULT_PROTOCOL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DIRLISTONLY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DISALLOW_USERNAME_IN_URL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_INTERFACE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_LOCAL_IP4.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_LOCAL_IP6.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_SERVERS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_SHUFFLE_ADDRESSES.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DNS_USE_GLOBAL_CACHE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_DOH_URL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_EGDSOCKET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ERRORBUFFER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_EXPECT_100_TIMEOUT_MS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FAILONERROR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FILETIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FNMATCH_DATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FNMATCH_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FOLLOWLOCATION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FORBID_REUSE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FRESH_CONNECT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTPPORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTPSSLAUTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_ACCOUNT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_ALTERNATIVE_TO_USER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_CREATE_MISSING_DIRS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_FILEMETHOD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_RESPONSE_TIMEOUT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_SKIP_PASV_IP.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_SSL_CCC.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_USE_EPRT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_USE_EPSV.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_FTP_USE_PRET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_GSSAPI_DELEGATION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HAPPY_EYEBALLS_TIMEOUT_MS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HAPROXYPROTOCOL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HEADER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HEADERDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HEADERFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HEADEROPT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTP09_ALLOWED.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTP200ALIASES.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTPAUTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTPGET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTPHEADER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTPPOST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_HTTP_VERSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_IGNORE_CONTENT_LENGTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_INFILESIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_INFILESIZE_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_INTERFACE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_INTERLEAVEDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_INTERLEAVEFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_IOCTLDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_IOCTLFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_IPRESOLVE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_ISSUERCERT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_KEEP_SENDING_ON_ERROR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_KEYPASSWD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_KRBLEVEL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_LOCALPORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_LOCALPORTRANGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_LOGIN_OPTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_LOW_SPEED_LIMIT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_LOW_SPEED_TIME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAIL_AUTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAIL_FROM.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAIL_RCPT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAIL_RCPT_ALLLOWFAILS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAXAGE_CONN.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAXCONNECTS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAXFILESIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAXFILESIZE_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAXREDIRS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAX_RECV_SPEED_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MAX_SEND_SPEED_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_MIMEPOST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NETRC.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NETRC_FILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NEW_DIRECTORY_PERMS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NEW_FILE_PERMS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NOBODY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NOPROGRESS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NOPROXY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_NOSIGNAL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_OPENSOCKETDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_OPENSOCKETFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PASSWORD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PATH_AS_IS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PINNEDPUBLICKEY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PIPEWAIT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_POST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_POSTFIELDS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_POSTFIELDSIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_POSTFIELDSIZE_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_POSTQUOTE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_POSTREDIR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PREQUOTE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PRE_PROXY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PRIVATE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROGRESSDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROGRESSFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROTOCOLS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYAUTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYHEADER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYPASSWORD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYPORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYTYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYUSERNAME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXYUSERPWD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_CAINFO.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_CAPATH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_CRLFILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_KEYPASSWD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_PINNEDPUBLICKEY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SERVICE_NAME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSLCERT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSLCERTTYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSLKEY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSLKEYTYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSLVERSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSL_CIPHER_LIST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSL_OPTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSL_VERIFYHOST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_SSL_VERIFYPEER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_TLS13_CIPHERS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_TLSAUTH_PASSWORD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_TLSAUTH_TYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_TLSAUTH_USERNAME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PROXY_TRANSFER_MODE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_PUT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_QUOTE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RANDOM_FILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RANGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_READDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_READFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_REDIR_PROTOCOLS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_REFERER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_REQUEST_TARGET.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RESOLVE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RESOLVER_START_DATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RESOLVER_START_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RESUME_FROM.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RESUME_FROM_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RTSP_CLIENT_CSEQ.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RTSP_REQUEST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RTSP_SERVER_CSEQ.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RTSP_SESSION_ID.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RTSP_STREAM_URI.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_RTSP_TRANSPORT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SASL_AUTHZID.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SASL_IR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SEEKDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SEEKFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SERVICE_NAME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SHARE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SOCKOPTDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SOCKOPTFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SOCKS5_AUTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_NEC.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_SERVICE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_AUTH_TYPES.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_COMPRESSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_KEYDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_KEYFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_KNOWNHOSTS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_PRIVATE_KEYFILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSH_PUBLIC_KEYFILE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLCERT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLCERTTYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLENGINE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLENGINE_DEFAULT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLKEY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLKEYTYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSLVERSION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_CIPHER_LIST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_CTX_DATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_CTX_FUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_ENABLE_ALPN.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_ENABLE_NPN.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_FALSESTART.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_OPTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_SESSIONID_CACHE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_VERIFYHOST.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_VERIFYPEER.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SSL_VERIFYSTATUS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_STDERR.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_STREAM_DEPENDS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_STREAM_DEPENDS_E.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_STREAM_WEIGHT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_SUPPRESS_CONNECT_HEADERS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TCP_FASTOPEN.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TCP_KEEPALIVE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TCP_KEEPIDLE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TCP_KEEPINTVL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TCP_NODELAY.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TELNETOPTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TFTP_BLKSIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TFTP_NO_OPTIONS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TIMECONDITION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TIMEOUT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TIMEOUT_MS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TIMEVALUE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TIMEVALUE_LARGE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TLS13_CIPHERS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TLSAUTH_PASSWORD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TLSAUTH_TYPE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TLSAUTH_USERNAME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TRAILERDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TRAILERFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TRANSFERTEXT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_TRANSFER_ENCODING.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_UNIX_SOCKET_PATH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_UNRESTRICTED_AUTH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_UPKEEP_INTERVAL_MS.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_UPLOAD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_UPLOAD_BUFFERSIZE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_URL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_USERAGENT.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_USERNAME.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_USERPWD.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_USE_SSL.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_VERBOSE.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_WILDCARDMATCH.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_WRITEDATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_WRITEFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_XFERINFODATA.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_XFERINFOFUNCTION.pdf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/_deps/curl-build/docs/libcurl/opts/CURLOPT_XOAUTH2_BEARER.pdf.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

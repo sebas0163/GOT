@@ -1,0 +1,200 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libtest_server.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"cpr_option"
+		],
+		"files" : 
+		[
+			"build/_deps/cpr-src/test/CMakeLists.txt",
+			"build/_deps/cpr-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUILD_CPR_TESTS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CMAKE_USE_OPENSSL"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "MG_ENABLE_SSL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/cpr-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/curl-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/curl-build/include/curl"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/googletest-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/mongoose-src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/HTTP test/build/_deps/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libcurl::@7349aeacaff41deceb36"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mongoose::@80d13b5cde0b6579cf18"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "cpr::@c4b08663df96993e8225"
+		}
+	],
+	"id" : "test_server::@35d6a134372cab719be2",
+	"name" : "test_server",
+	"nameOnDisk" : "libtest_server.a",
+	"paths" : 
+	{
+		"build" : "_deps/cpr-build/test",
+		"source" : "build/_deps/cpr-src/test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/cpr-src/test/abstractServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/cpr-src/test/httpServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/_deps/cpr-src/test/httpsServer.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,10 +1,11 @@
 const mysql = require('mysql');
 
-const user = 'jose';
+const user = process.argv[2];
+const psw  = process.argv[3];
 
 const pool = mysql.createPool({
     connectionLimit: 10,
-    password: 'jose',
+    password: psw,
     user: user,
     database: 'pruebita',
     host: 'localhost',
