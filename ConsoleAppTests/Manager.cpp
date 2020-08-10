@@ -4,6 +4,14 @@ using namespace std;
 #include "Manager.h"
 #include "md5.cpp"
 
+string http = " http://localhost:3000/GOT/api/";
+Manager::Manager(string usr)
+{
+    username = usr;
+}
+
+
+
 vector<string> Manager::split(const string& s, char delimiter)
 {
    vector<string> tokens;
@@ -18,7 +26,11 @@ vector<string> Manager::split(const string& s, char delimiter)
 
 void Manager::init(string name)
 {
-    cout << "Repositorio " << name << " iniciado"<<endl;
+    string url = http+"init/"+name;
+    //auto response = cpr::Post(cpr::Url{url);
+    //std::cout << response.text << std::endl; 
+    cout << url <<endl;
+
 }
 void Manager::help()
 {
@@ -40,23 +52,42 @@ void Manager::add(string file)
 }
 void Manager::commit(string message)
 {
-    cout << "Commit con mensaje "<< message << ", código: " << md5(message) << endl;
+    //TENGO QUE HACER UNA FUNCION QUE BUSQUE LOS ARCHIVOS Y VAYA MANDANDO EL COMANDO CON CADA ARCHIVO
+    string file; //Cada archivo con cambios
+    string changes;//Cambios con huffman
+    string dictionary;//Diccionario que se crea
+    string url = http+"commit/"+file+"/"+changes+"/"+ dictionary+"/"+md5(message);
+    //auto response = cpr::Post(cpr::Url{url);
+    //std::cout << response.text << std::endl; 
+    cout << url <<endl;
 }
 void Manager::status(string file)
 {
-    cout << "Estado del archivo " << file << endl;
+    string url = http+"status/"+file;
+    //auto response = cpr::Post(cpr::Url{url);
+    //std::cout << response.text << std::endl; 
+    cout << url <<endl;
 }
 void Manager::rollback(string file, string commit)
 {
-    cout << "Archivo " << file << "al commit " << commit << endl;
+    string url = http+"rollback/"+file+"/"+commit;
+    //auto response = cpr::Post(cpr::Url{url);
+    //std::cout << response.text << std::endl; 
+    cout << url <<endl;
 }
 void Manager::reset(string file)
 {
-    cout << "Resetear el achivo "<<file;
+    string url = http+"newest/"+file;
+    //auto response = cpr::Post(cpr::Url{url);
+    //std::cout << response.text << std::endl; 
+    cout << url <<endl;
 }
 void Manager::sync(string file)
 {
-    cout << "Sincronizar el archivo "<<file;
+    string url = http+"newest/"+file;
+    //auto response = cpr::Post(cpr::Url{url);
+    //std::cout << response.text << std::endl; 
+    cout << url <<endl;
 }
 
 void Manager::hello()

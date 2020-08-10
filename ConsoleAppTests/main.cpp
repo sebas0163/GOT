@@ -3,24 +3,21 @@
 #include <iostream>
 #include <fstream>
 #include <istream>
-
-
-
 using namespace std;
-
-
-
 
 
 int main () {
 
-  vector<string> vec= Manager::split("Hola prueba de split", ' ');
-
+  //vector<string> vec= Manager::split("Hola prueba de split", ' ');
+  string user;
+  cout << "> Escriba su usuario: ";
+  getline(cin, user);
+  Manager Bob(user);
   while(true)
   {
-    Manager Bob;
+    
     string input;
-    cout << "> ";
+    cout << user+"> ";
     getline(cin, input);
     vector<string> inputVec= Manager::split(input, ' ');
     string command= inputVec[0]+' '+inputVec[1];
@@ -63,8 +60,9 @@ int main () {
     }
     else
     {
-      cout << "comando no encontrado";
+      cout << "comando no encontrado" << endl;
     }
+    
   }
     
     

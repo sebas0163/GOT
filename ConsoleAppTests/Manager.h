@@ -7,7 +7,10 @@ using namespace std;
 
 class Manager
 {
+    private:
+        string username;
     public:
+        Manager(string user);
         static vector<string> split(const string& s, char delimiter);
         void init(string name);
         void help();
