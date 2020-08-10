@@ -1,0 +1,3 @@
+/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/Request C++/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/Request C++/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/jachm/Documents/TEC/Datos-II/Proyecto III/GOT/Request C++/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
