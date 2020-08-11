@@ -7,4 +7,3 @@ got status <file> : Ver cuales archivos han sido cambiados, agregados o eliminad
 got rollback <file> <commit> : Regresar el archivo especificado un commit específico
 got reset <file> : Deshacer cambios de un archivo y regresarlo al último commit
 got sync <file> : Recuperar cambios del archivo desde el server y hacer merge en caso de ser necesario
-

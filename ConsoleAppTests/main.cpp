@@ -10,9 +10,10 @@ int main () {
 
   //vector<string> vec= Manager::split("Hola prueba de split", ' ');
   string user;
-  cout << "> Escriba su usuario: ";
+  cout << "> Escriba su nombre: ";
   getline(cin, user);
   Manager Bob(user);
+  
   while(true)
   {
     
@@ -60,6 +61,7 @@ int main () {
     }
     else
     {
+      Bob.hello();
       cout << "comando no encontrado" << endl;
     }
     

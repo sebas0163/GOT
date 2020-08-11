@@ -1,15 +1,14 @@
 // C++ program to encode and decode a string using 
 // Huffman Coding. 
 #include <bits/stdc++.h> 
-#define MAX_TREE_HT 256 
+#define MAX_TREE_HT 2048 
 using namespace std; 
-#include "Manager.h"
+//#include "Manager.cpp"
 // to map each character its huffman value 
 map<char, string> codes; 
 
 // to store the frequency of character of the input data 
 map<char, int> freq; 
-string huffTable;
 // A Huffman tree node 
 struct MinHeapNode 
 { 
@@ -117,49 +116,17 @@ string decode_file(struct MinHeapNode* root, string s)
 	// cout<<ans<<endl; 
 	return ans+'\0'; 
 }
-string decode(string s, string table)
-{
-	string decodedStr;
-	vector<string> charCodes= Manager::split(s, '/');
-	string subStr;
-	int to=0;
-	for (int i=0; i< s.size();i++)
-	{
-		for (int j=0; j< charCodes.size();j++)
-		{
-			
-		}
-	}
-
-} 
 
 
-
-void hi(string str)
-{
-	//string str = "Pruebas para ver la codificacion y decodificacion"; 
-	string encodedString, decodedString, table; 
-	calcFreq(str, str.length()); 
-	HuffmanCodes(str.length()); 
-	cout << "Character With their Frequencies:\n"; 
-	for (auto v=codes.begin(); v!=codes.end(); v++) 
-		//cout << v->first <<' ' << v->second << endl; 
-		table= table+ v->first +','+ v->second + '/';
-
-	for (auto i: str) 
-		encodedString+=codes[i]; 
-	cout << "aaaaa: " << table;
-
-	cout << "\nEncoded Huffman data:\n" << encodedString << endl; 
-
-	decodedString = decode_file(minHeap.top(), encodedString); 
-	cout << "\nDecoded Huffman Data:\n" << decodedString << endl; 
-	
-}
 // Driver program to test above functions 
-int main() 
+/*int main() 
 { 
-	hi("Pruebas para la deco");
-	hi("help wat");
+	vector<string> a=encode("Pruebas para la deco");
+	decode(a[0],a[1]);
+	decode(a[0],a[1]);
+	vector<string> b=encode("jsdai");
+	decode(b[0],b[1]);
+	vector<string> c=encode("Jose tiene razon Korra era un avatar aprendiendo a ser persona :o");
+	decode(c[0],c[1]);
 	return 0; 
-} 
+} */
