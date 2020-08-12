@@ -57,10 +57,10 @@ router.post('/init/:name', async (req,res,next) =>{
 //       _____________________________
 //______/Commit (one file at a time)
 
-router.post('/commit/:filename/:data/:dic/:msg', async (req,res,next) =>{
+router.post('/commit/:filename/:commitId/:data/:dic/:msg', async (req,res,next) =>{
 
     try{
-        let results = await db.commitFile(req.params.filename,req.params.data,req.params.dic,req.params.msg);
+        let results = await db.commitFile(req.params.filename,req.params.commitId,req.params.data,req.params.dic,req.params.msg);
         res.status(200).json(results);
 
     }catch(e){

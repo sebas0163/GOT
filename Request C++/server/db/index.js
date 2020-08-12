@@ -73,11 +73,11 @@ GOTdb.init = (name) => {
 //       _________________
 //______/ commit <msg>
 
-GOTdb.commitFile = (filename,data,dic,msg) => {
+GOTdb.commitFile = (filename,commitId,data,dic,msg) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`exec commit @${user} @${filename} @${data} @${dic} @${msg};`, (err,results)=>{
+        pool.query(`exec commit @${user} @${filename} @${commitId} @${data} @${dic} @${msg};`, (err,results)=>{
 
             if (err){
                 return reject(err);
