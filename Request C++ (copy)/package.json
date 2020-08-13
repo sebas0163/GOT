@@ -1,0 +1,20 @@
+{
+  "name": "apigot",
+  "version": "1.0.0",
+  "description": "Api para manejador de versiones GOT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon server/server.js -w server",
+    "init": "npm run dev --$USER --$PASSWORD" 
+
+  },
+  "author": "Jose, Harold, Natalia & Sebastian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
