@@ -29,7 +29,7 @@ PRIMARY KEY(id_repo)
 CREATE TABLE IF NOT EXISTS Usuario(
 id_usr INT NOT NULL AUTO_INCREMENT,
 nombre varchar(100) NOT NULL,
-id_repo INT NOT NULL,
+id_repo INT,
 PRIMARY KEY(id_usr)
 );
 
@@ -39,7 +39,7 @@ id_commit VARCHAR(500) NOT NULL,
 commit_msg TEXT NOT NULL,
 id_docu INT NOT NULL,
 id_usr INT NOT NULL,
-fecha DATE NOT NULL,
+fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 datos TEXT NOT NULL,
 diccionario TEXT NOT NULL,
 PRIMARY KEY(id_commit)
