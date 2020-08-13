@@ -34,6 +34,39 @@ router.get('/no/:id', async (req,res,next) =>{
 
 
 
+//       _________
+//______/ login
+
+router.post('/logmein', async (req,res,next) =>{
+
+    try{
+        let results = await db.iniciar();
+        res.status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
+
+//       ____________________
+//______/ 
+
+router.post('/befriend/:name', async (req,res,next) =>{
+
+    try{
+        let results = await db.befriend(req.params.name);
+        res.status(200).json(results);
+
+    }catch(e){
+        console.log(e);
+        res.sendStatus(500);
+    }
+
+});
+
 
 //       ____________________
 //______/ Create a new repo

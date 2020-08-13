@@ -13,6 +13,18 @@ const pool = mysql.createPool({
 
 });
 
+function parseTest(json) {
+
+    var newJson = JSON.stringify(json);
+    var obj  = JSON.parse(newJson);
+    var string;
+    for (var i=0;i<obj.length;i++) {
+        string = string + obj[i].id_juego + '/' + obj[i].titulo + '/' + obj[i].año + '/' + obj[i].naciondalidad + "/";
+     }
+
+    return string.slice(0, -1); 
+}
+
 let GOTdb = {};
 
 GOTdb.all = () => {
@@ -24,8 +36,8 @@ GOTdb.all = () => {
             if (err){
                 return reject(err);
             }
-
-            return resolve(results);
+            let answer = parseTest(results)
+            return resolve(answer);
 
         });
     });

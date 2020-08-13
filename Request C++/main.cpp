@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     sleep(3);
 
 
-    auto response = cpr::Get(cpr::Url{"http://localhost:3000/GOT/api"});
+    auto response = cpr::Get(cpr::Url{"http://localhost:3000/GOT/api/logmein"});
     std::cout << response.text << std::endl;
 
     int i;
