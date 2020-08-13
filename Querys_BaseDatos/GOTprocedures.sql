@@ -82,8 +82,7 @@ DELIMITER $$
 create procedure GOTfileStatus
 (
 	in _user VARCHAR(200),
-	in _docuName VARCHAR(200),
-	OUT _valores TEXT
+	in _docuName VARCHAR(200)
 )
 begin
 	SET @id_rep = (SELECT id_repo FROM Usuario 
@@ -92,8 +91,8 @@ begin
     SET @id_doc = (SELECT id_docu FROM Documento 
     WHERE nombre = _docuName AND id_repo = @id_rep);
     
-	SET _valores = (SELECT * FROM Versiones
-    WHERE id_docu = @id_doc );
+	SELECT * FROM Versiones
+    WHERE id_docu = @id_doc ;
     
 	#Definir que devuelve
     
@@ -106,12 +105,11 @@ DELIMITER $$
 
 create procedure GOTuserStatus
 (
-	in _user VARCHAR(200),
-    OUT stat TEXT
+	in _user VARCHAR(200)
 )
 begin
 	SET @id_rep = (SELECT id_repo FROM Usuario WHERE nombre = _user);
-    SET stat = (SELECT * FROM Documento WHERE id_repo = @id_rep);
+    SELECT * FROM Documento WHERE id_repo = @id_rep;
 	#Definir que devuelve
 
 end$$
@@ -125,14 +123,13 @@ create procedure GOTrollback
 (
 	in _user VARCHAR(200),
 	in _docuName VARCHAR(200),
-    in _commit VARCHAR(500),
-    OUT roll TEXT
+    in _commit VARCHAR(500)
 )
 begin
 	SET @id_rep = (SELECT id_repo FROM Usuario WHERE nombre=_user);
     SET @id_doc=(SELECT id_docu FROM Documento 
     WHERE nombre = _docuName AND id_repo = @id_rep);
-    SET roll=(SELECT datos,diccionario FROM Versiones WHERE id_docu = @id_doc AND id_commit = _commit);
+    SELECT datos,diccionario FROM Versiones WHERE id_docu = @id_doc AND id_commit = _commit;
 
 end$$
 DELIMITER ;
@@ -144,15 +141,14 @@ DELIMITER $$
 create procedure GOTnewestFile
 (
 	in _user VARCHAR(200),
-	in _docuName VARCHAR(200),
-    OUT newest TEXT
+	in _docuName VARCHAR(200)
 )
 begin
 	SET @id_rep = (SELECT id_repo FROM Usuario WHERE nombre=_user);
     SET @id_doc=(SELECT id_docu FROM Documento 
     WHERE nombre = _docuName AND id_repo = @id_rep);
-    SET newest= (SELECT datos,diccionario FROM Versiones 
-    WHERE fecha= (SELECT MAX(fecha)FROM Versiones) AND nombre= _docuName AND id_docu = @id_doc);
+    SELECT datos,diccionario FROM Versiones 
+    WHERE fecha= (SELECT MAX(fecha)FROM Versiones) AND id_docu = @id_doc;
     
 
 end$$

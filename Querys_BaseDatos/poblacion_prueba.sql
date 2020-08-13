@@ -18,5 +18,8 @@ VALUES
 ("holaaaaa2","commit2",2,1,"dkcmk3","0.00101"),
 ("holaaaaa3","commit3",2,1,"dkcmk3","0.00101");
 
-call GOTcommit("juan","conejo","fd5vdvvf","014010","101145","mensaje");
-select * from Versiones;
+INSERT INTO Versiones(id_commit,commit_msg,id_docu,id_usr,datos,diccionario)
+VALUES
+("holaaaaa4","commit4",2,1,"dkc2","0.01101");
+
+call GOTnewestFile("juan","perro");
