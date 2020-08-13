@@ -289,7 +289,7 @@ void Manager::status(string file)
 void Manager::rollback(string file, string commit)
 {
     string url = http+"rollback/"+file+"/"+commit;
-    auto response = cpr::Get(cpr::Url{url);
+    auto response = cpr::Get(cpr::Url{url.c_str()});
     //std::cout << response.text << std::endl; 
     vector<string> resp = Manager::split(response.text, '/');
     string dictionary= resp[0];
@@ -304,7 +304,7 @@ void Manager::rollback(string file, string commit)
 void Manager::reset(string file)
 {
     string url = http+"newest/"+file;
-    auto response = cpr::Get(cpr::Url{url);
+    auto response = cpr::Get(cpr::Url{url.c_str()});
     //std::cout << response.text << std::endl;
     vector<string> resp = Manager::split(response.text, '/');
     string dictionary= resp[0];
@@ -321,9 +321,9 @@ void Manager::sync(string file)
 {
     
     string url = http+"newest/"+file;
-    auto response = cpr::Post(cpr::Url{url);
+    auto response = cpr::Post(cpr::Url{url});
     //std::cout << response.text << std::endl; 
-    vector<string> resp = Manager::split(response.text '/');
+    vector<string> resp = Manager::split(response.text, '/');
     string dictionary= resp[0];
     string decodedFile=resp[1];
     //string dictionary="\n~0001| ~111|'~011100|(~0000110110|)~1001000001|,~0000111|?~1100100|A~100100011|B~100100001|D~00001011|H~0000100|I~110011|J~0000110111|M~1001000000|N~100100111|O~10010010|P~000011010|T~100100010|W~011110|Y~00001100|a~10101|b~00001010|c~1100101|d~10001|e~001|f~0111011|g~00000|h~11011|i~11010|k~011111|l~10000|m~100101|n~0101|o~1011|p~100100110|r~01000|s~10011|t~0110|u~10100|v~0111010|w~11000|y~01001|";
@@ -349,7 +349,7 @@ void Manager::sync(string file)
 void Manager::befriend(string name)
 {
     string url = http+"befriend/"+name;
-    auto response = cpr::Post(cpr::Url{url);
+    auto response = cpr::Post(cpr::Url{url.c_str()});
     //std::cout << response.text << std::endl;
     cout << url <<endl;
 }
