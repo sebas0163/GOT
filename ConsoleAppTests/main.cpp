@@ -12,7 +12,7 @@ int main () {
   string user;
   cout << "> Escriba su nombre: ";
   getline(cin, user);
-  Manager Bob(user);
+  Manager manager(user);
   
   while(true)
   {
@@ -25,35 +25,46 @@ int main () {
 
     if (command=="got init")
     {
-      Bob.init(inputVec[2]);
+      manager.init(inputVec[2]);
     }
     else if (command =="got help")
     {
-      Bob.help();
+      manager.help();
     }
     else if (command =="got add")
     {
-      Bob.add(inputVec[2]);
+      manager.add(inputVec[2]);
     }
     else if (command =="got commit")
     {
-      Bob.commit(inputVec[2]);
+      manager.commit(inputVec[2]);
     }
     else if (command =="got status")
     {
-      Bob.status(inputVec[2]);
+      if (inputVec.size()==3)
+      {
+        manager.status(inputVec[2]);
+      }
+      else
+      {
+        manager.status("");
+      }
     }
     else if (command =="got rollback")
     {
-      Bob.rollback(inputVec[2], inputVec[3]);
+      manager.rollback(inputVec[2], inputVec[3]);
     }
     else if (command =="got reset")
     {
-      Bob.reset(inputVec[2]);
+      manager.reset(inputVec[2]);
     }
     else if (command =="got sync")
     {
-      Bob.sync(inputVec[2]);
+      manager.sync(inputVec[2]);
+    }
+    else if (command =="got befriend")
+    {
+      manager.befriend(inputVec[2]);
     }
     else if (command=="got end")
     {
@@ -61,7 +72,7 @@ int main () {
     }
     else
     {
-      Bob.hello();
+      manager.hello();
       cout << "comando no encontrado" << endl;
     }
     

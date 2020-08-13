@@ -23,6 +23,7 @@ class Manager
         void rollback(string file, string commit);
         void reset(string file);
         void sync(string file);
+        void befriend(string user);
         void hello();
         string decode(string dictionary, string decodeStr);
         vector<string> encode(string str);
