@@ -117,7 +117,11 @@ GOTdb.befriend = (name) => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         pool.query(`CALL befriend @${user} @${name};`, (err,results)=>{
+=======
+        pool.query(`EXEC befriend @${user} @${name};`, (err,results)=>{
+>>>>>>> Stashed changes
 =======
         pool.query(`EXEC befriend @${user} @${name};`, (err,results)=>{
 >>>>>>> Stashed changes
@@ -165,7 +169,11 @@ GOTdb.commitFile = (filename,commitId,data,dic,msg) => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         pool.query(`CALL commit @${user} @${filename} @${commitId} @${data} @${dic} @${msg};`, (err,results)=>{
+=======
+        pool.query(`EXEC commit @${user} @${filename} @${commitId} @${data} @${dic} @${msg};`, (err,results)=>{
+>>>>>>> Stashed changes
 =======
         pool.query(`EXEC commit @${user} @${filename} @${commitId} @${data} @${dic} @${msg};`, (err,results)=>{
 >>>>>>> Stashed changes
@@ -194,7 +202,11 @@ GOTdb.userStatus = () => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         pool.query(`CALL userStatus @${user};`, (err,results)=>{
+=======
+        pool.query(`EXEC userStatus @${user};`, (err,results)=>{
+>>>>>>> Stashed changes
 =======
         pool.query(`EXEC userStatus @${user};`, (err,results)=>{
 >>>>>>> Stashed changes
@@ -223,7 +235,11 @@ GOTdb.fileStatus = (filename) => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         pool.query(`CALL fileStatus @${user} @${filename};`, (err,results)=>{
+=======
+        pool.query(`EXEC fileStatus @${user} @${filename};`, (err,results)=>{
+>>>>>>> Stashed changes
 =======
         pool.query(`EXEC fileStatus @${user} @${filename};`, (err,results)=>{
 >>>>>>> Stashed changes
@@ -251,7 +267,11 @@ GOTdb.rollback = (filename, commit) => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         pool.query(`CALL rollback @${user} @${filename} @${commit};`, (err,results)=>{
+=======
+        pool.query(`EXEC rollback @${user} @${filename} @${commit};`, (err,results)=>{
+>>>>>>> Stashed changes
 =======
         pool.query(`EXEC rollback @${user} @${filename} @${commit};`, (err,results)=>{
 >>>>>>> Stashed changes
@@ -279,7 +299,11 @@ GOTdb.newestFile = (filename) => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         pool.query(`CALL newestFile @${user} @${filename};`, (err,results)=>{
+=======
+        pool.query(`EXEC newestFile @${user} @${filename};`, (err,results)=>{
+>>>>>>> Stashed changes
 =======
         pool.query(`EXEC newestFile @${user} @${filename};`, (err,results)=>{
 >>>>>>> Stashed changes
