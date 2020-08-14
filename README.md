@@ -1,5 +1,10 @@
 # GOT 
-
+## Requisitos para el Uso de GOT
+* Esta aplicación fue desarrollada para el sistema operativo Linux.
+* Se debe de contar con Visual Studio Code.
+* Visual Studio debe de contar con las extensiones "C/C++", "CMAKE" y "CMAKE TOOLS"
+* Se debe de contar con Mysql y Mysql workbench.
+* Finalmente se debe de contar con VIM.
 
 ## Instrucciones de Clonación del Repositorio
 
@@ -20,24 +25,27 @@
 
 ## Paso para la ejecución del programa
 
-1) Iniciar la base de datos.
+1) Iniciar la base de datos (ejecutar antes de correr el programa).
 2) Ejecutar el Cmake y el programa GOT
 
 ## Creación de la base de datos 
 En primera instancia, se debe ejecutar el comando "sudo mysql" para iniciar la base de datos.
 
 Una vez con el repositorio clonado, se debe abrir "Mysql Workbench" en donde se inicia la sesión en el localHost que se encuentra disponible. 
-// Imagen localHOST
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/localhost.png)
 
 Dentro del editor, se selecciona la opcion de agregar documentos .sql y se añaden los archivos ("Creacion_base_tablas","GOTprocedures","Asig_ForeingKey") de la carpeta "Querys_BaseDatos".
 
-//Imagen de seleccionar archivos 
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/abrir1.png)
 
-// imagen de los trés archivos 
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/abrir2.png)
 
 Cada de archivo debe de correrse para crear la base de datos adecuadamente.
 
-// Imagen de compilación 
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/compilar.png)
 
 
 ## Instrucciones de ejecución de CMAKE 
@@ -48,3 +56,8 @@ Una vez que el repositorio ha sido clonado con éxito se debe de abrir la Carpet
 // IMAGEN PALETA Y PLAY
 
 Una vez esto ya se puede interactuar el programa.
+
+## Instrucciones de Ejecución 
+* Al iniciar GOT, se debe de agregar un nombre de usuario y una contraseña, esto va a identificar los datos enviados a la base.
+* Posterior se pueden usar los comandos especificados en la Wiki del proyecto, especificamente en la sección de Descripción del proyecto.
+* NOTA: GOT befriend puede ser utlizado si existe un repositorio en el la base de datos.
