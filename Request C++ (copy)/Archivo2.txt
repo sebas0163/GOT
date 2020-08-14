@@ -1,2 +1,4 @@
-Iba a meter en las estr si si si
-modificado 2
+Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam
