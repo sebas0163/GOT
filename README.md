@@ -50,6 +50,18 @@ Cada de archivo debe de correrse para crear la base de datos adecuadamente.
 
 ## Instrucciones de ejecución de CMAKE 
 
+**Instalacion de cmake**
+Para instalar cmake se deben ejcuatar los sigguientes comandos en el terminal 
+
+//terminal 
+//terminal
+
+Despues para poder ejecutar el programa desde el terminal se deben usar los siguientes comandos
+
+//
+//
+//
+
 Una vez que el repositorio ha sido clonado con éxito se debe de abrir la Carpeta "Request C++ (copy )" con visual Studio y en la paleta de comandos colocar "cmake: build" y ejecutar el programa en VSCode.
 
 //IMAGEN DE LA CARPETA
