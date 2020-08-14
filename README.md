@@ -53,21 +53,27 @@ Cada de archivo debe de correrse para crear la base de datos adecuadamente.
 **Instalacion de cmake**
 Para instalar cmake se deben ejcuatar los sigguientes comandos en el terminal 
 
-//terminal 
-//terminal
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/install%20cmake.png)
 
-Despues para poder ejecutar el programa desde el terminal se deben usar los siguientes comandos
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/install%20ssl.png)
 
-//
-//
-//
 
-Una vez que el repositorio ha sido clonado con éxito se debe de abrir la Carpeta "Request C++ (copy )" con visual Studio y en la paleta de comandos colocar "cmake: build" y ejecutar el programa en VSCode.
+Despues para poder ejecutar el programa desde el terminal se debe igresar al directorio Requets (copy), la ruta varia dependiendo del usuario, para este caso es la siguiente
 
-//IMAGEN DE LA CARPETA
-// IMAGEN PALETA Y PLAY
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/dir.png)
 
-Una vez esto ya se puede interactuar el programa.
+Posteriormente se compila el programa con los siguientes comandos:
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/cmake.png)
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/make.png)
+
+Finalmente ejecutamos el programa
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/requests.png)
+
+
+Una vez esto ya se puede interactuar con el programa.
 
 ## Instrucciones de Ejecución 
 * Al iniciar GOT, se debe de agregar un nombre de usuario y una contraseña, esto va a identificar los datos enviados a la base.
