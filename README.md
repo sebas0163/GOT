@@ -79,7 +79,7 @@ En caso de querer editar el codigo se puede acceder mediante Visual Studio, aseg
 
 La configuraciod de visual debe verse asi:
 
-//VS
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/VS.png)
 
 ## Instrucciones de Ejecución 
 * Al iniciar GOT, se debe de agregar un nombre de usuario y una contraseña, esto va a identificar los datos enviados a la base.
