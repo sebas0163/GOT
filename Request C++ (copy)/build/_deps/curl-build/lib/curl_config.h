@@ -4,13 +4,13 @@
 /* #undef BUILDING_LIBCURL */
 
 /* Location of default ca bundle */
-#define CURL_CA_BUNDLE "/etc/ssl/certs/ca-certificates.crt"
+/* #undef CURL_CA_BUNDLE */
 
 /* define "1" to use built-in ca store of TLS backend */
 /* #undef CURL_CA_FALLBACK */
 
 /* Location of default ca path */
-#define CURL_CA_PATH "/etc/ssl/certs"
+/* #undef CURL_CA_PATH */
 
 /* to disable cookies support */
 /* #undef CURL_DISABLE_COOKIES */

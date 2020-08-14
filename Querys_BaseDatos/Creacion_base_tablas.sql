@@ -13,7 +13,7 @@ id_docu INT NOT NULL AUTO_INCREMENT,
 commit_act VARCHAR(500),
 nombre VARCHAR(200) NOT NULL,
 id_repo INT NOT NULL,
-original TEXT NOT NULL,
+datos TEXT NOT NULL,
 diccionario TEXT NOT NULL,
 PRIMARY KEY(id_docu)
 );
@@ -42,7 +42,7 @@ id_usr INT NOT NULL,
 fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 datos TEXT NOT NULL,
 diccionario TEXT NOT NULL,
-PRIMARY KEY(id_commit)
+PRIMARY KEY(id_commit, id_docu)
 );
 
 

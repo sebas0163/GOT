@@ -1,6 +1,3 @@
-Este es otro archivo de prueba para el proyecto 2 de Datos 2 con diferencias
-La linea 2 es igual
-La linea 3 del archivo 2
+Iba a meter en las estr si si si
+modificado 2
 
-
-..

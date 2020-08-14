@@ -1,3 +1,4 @@
 help.txt
 gotignore.txt
 ServerFile.txt
+CMakeLists.txt

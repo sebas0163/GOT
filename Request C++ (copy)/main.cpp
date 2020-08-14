@@ -6,30 +6,35 @@
 #include <unistd.h>
 #include "Manager.cpp"
 using namespace std;
+
+string user;
+string password;
 std::vector<std::future<void>> thread_thing;
+
 
 void server_start(){
 
-
-    //system("npm run init jose jose");
+  string command = "npm run init "+ user + " " +password;
+  system(command.c_str());
 
 
 }
 
 int main(int argc, char** argv) {
 
-    thread_thing.push_back(std::async(std::launch::async,server_start));
-    sleep(3);
-
-    string help="http://localhost:3000/GOT/api/";
-    auto response = cpr::Get(cpr::Url{help});
-    std::cout << response.text << std::endl;
-
-    //vector<string> vec= Manager::split("Hola prueba de split", ' ');
-  string user;
+  system("fuser -n tcp -k 3000");
   cout << "> Escriba su nombre: ";
   getline(cin, user);
+  cout << "> Escriba su contraseña: ";
+  getline(cin, password);
+
+  thread_thing.push_back(std::async(std::launch::async,server_start));
+  sleep(3);
+
+  string help="http://localhost:3000/GOT/api/logmein";
+  auto response = cpr::Post(cpr::Url{help});
   Manager manager(user);
+
   
   while(true)
   {

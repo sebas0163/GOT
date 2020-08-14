@@ -24,3 +24,4 @@ ALTER TABLE Versiones
 ADD CONSTRAINT Versiones_id_usr_FK FOREIGN KEY(id_usr)
 REFERENCES Usuario(id_usr);
 
+

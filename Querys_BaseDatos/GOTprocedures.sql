@@ -33,10 +33,21 @@ CREATE PROCEDURE GOTbefriend
     IN _nombre VARCHAR(200)
 )
 begin
-	SET @id_rep = (SELECT id_repo FROM Usuario 
-    WHERE nombre = _nombre);
-    UPDATE Usuario SET id_repo = @id_rep
-    WHERE nombre = _user;
+	
+    IF  (SELECT nombre FROM Usuario WHERE nombre = _nombre ) IS NOT NULL THEN
+		SET @id_rep = (SELECT id_repo FROM Usuario 
+		WHERE nombre = _user);
+		UPDATE Usuario SET id_repo = @id_rep
+		WHERE nombre = _nombre;
+	ELSE 
+		INSERT INTO Usuario (nombre) 
+		VALUES (_nombre);
+        SET @id_rep = (SELECT id_repo FROM Usuario 
+		WHERE nombre = _user);
+		UPDATE Usuario SET id_repo = @id_rep
+		WHERE nombre = _nombre;
+	END IF;
+		
 end$$
 DELIMITER ;
 
@@ -67,9 +78,13 @@ IF (SELECT nombre FROM Documento WHERE id_repo = @id_rep AND nombre = _docuName)
     VALUES 
     (_commitID,_msg,@id_doc,@id_usuario,_data,_dic);
 ELSE
-	INSERT INTO Documento(commit_act,nombre,id_repo,original,diccionario)
+	INSERT INTO Documento(commit_act,nombre,id_repo,datos,diccionario)
     VALUES 
     (_commitID, _docuName, @id_rep ,_data,_dic);
+    SET @id_doc = (SELECT id_docu FROM Documento WHERE id_repo = @id_rep AND nombre = _docuName);
+    INSERT INTO Versiones(id_commit,commit_msg,id_docu,id_usr,datos,diccionario)
+    VALUES 
+    (_commitID,_msg,@id_doc,@id_usuario,_data,_dic);
     END IF;
 	
 end$$
@@ -150,9 +165,21 @@ begin
     SELECT datos,diccionario FROM Versiones 
     WHERE fecha= (SELECT MAX(fecha)FROM Versiones) AND id_docu = @id_doc;
     
-
 end$$
 DELIMITER ;
 
+DELIMITER $$
 
+create procedure GOTlogmein
+(
+	in _user VARCHAR(200)
+)
+begin
+IF NOT EXISTS(SELECT * FROM Usuario WHERE nombre=_user) THEN
+	INSERT INTO Usuario (nombre) 
+    VALUES (_user);
+END IF;
+
+end$$
+DELIMITER ;
 

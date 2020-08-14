@@ -72,7 +72,7 @@ while test $# -gt 0; do
         ;;
 
     --ca)
-        echo /etc/ssl/certs/ca-certificates.crt
+        echo 
         ;;
 
     --cc)

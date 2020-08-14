@@ -7,7 +7,7 @@ const pool = mysql.createPool({
     connectionLimit: 10,
     password: psw,
     user: user,
-    database: 'pruebita',
+    database: 'DataGOT',
     host: 'localhost',
     port: '3306'
 
@@ -25,14 +25,15 @@ function parseTest(json) {
     return string.slice(0, -1); 
 }
 
-function parseForStatusFile(json) {
+function parseForStatusFile(json,file) {
 
     var newJson = JSON.stringify(json);
     var obj  = JSON.parse(newJson);
-    var string;
-    for (var i=0;i<obj.length;i++) {
-        string = string + obj[i].Date + '/' + obj[i].Nombre + '/' + obj[i].Id_commit + '/' + obj[i].commit_msg + "/" + obj[i].Dic + "/" + obj[i].Data + "/";
+    var string = "";
+    for (var i=0;i<obj[0].length;i++) {
+        string = string + obj[0][i].fecha + '/' + file + '/' + obj[0][i].id_commit + '/' + obj[0][i].commit_msg + "/" + obj[0][i].diccionario + "/" + obj[0][i].datos + "/";
      }
+
 
     return string.slice(0, -1);
     
@@ -42,11 +43,12 @@ function parseForStatus(json) {
 
     var newJson = JSON.stringify(json);
     var obj  = JSON.parse(newJson);
-    var string;
-    for (var i=0;i<obj.length;i++) {
-        string = string + obj[i].Nombre + '/'  + obj[i].Dic + "/" + obj[i].Data + "/";
+    var string = "";
+    for (var i=0;i<obj[0].length;i++) {
+        string = string + obj[0][i].nombre + '/'  + obj[0][i].diccionario + "/" + obj[0][i].datos + "/";
      }
 
+    //return obj[0]; 
     return string.slice(0, -1);
     
 }
@@ -55,11 +57,12 @@ function parseForRRS(json) {
 
     var newJson = JSON.stringify(json);
     var obj  = JSON.parse(newJson);
-    var string;
-    for (var i=0;i<obj.length;i++) {
-        string = string + obj[i].Dic + "/" + obj[i].Data + "/";
+    var string = "";
+    for (var i=0;i<obj[0].length;i++) {
+        string = string + obj[0][i].diccionario + "/" + obj[0][i].datos + "/";
      }
 
+    //return obj;
     return string.slice(0, -1);
     
 }
@@ -70,7 +73,7 @@ GOTdb.all = () => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`SELECT * FROM juegos`, (err,results)=>{
+        pool.query(`SELECT * FROM Usuario`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -106,8 +109,7 @@ GOTdb.one = (id) => {
 GOTdb.iniciar = () => {
     return new Promise((resolve, reject)=> {
 
-        pool.query(`INSERT INTO Usuario (nombre) VALUES (${user})
-        WHERE NOT EXISTS(SELECT * FROM Usuario WHERE nombre=${user});`, (err,results)=>{
+        pool.query(`CALL GOTlogmein ("${user}")`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -120,14 +122,14 @@ GOTdb.iniciar = () => {
 };
 
 
-//       _________________
+//       ______________________
 //______/ Agregar colaborador
 
 GOTdb.befriend = (name) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL befriend @${user} @${name};`, (err,results)=>{
+        pool.query(`CALL GOTbefriend ("${user}", "${name}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -147,7 +149,7 @@ GOTdb.init = (name) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL init @${user} @${name};`, (err,results)=>{
+        pool.query(`CALL GOTinit ("${user}", "${name}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -167,7 +169,7 @@ GOTdb.commitFile = (filename,commitId,data,dic,msg) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL commit @${user} @${filename} @${commitId} @${data} @${dic} @${msg};`, (err,results)=>{
+        pool.query(`CALL GOTcommit ("${user}", "${filename}", "${commitId}", "${data}", "${dic}", "${msg}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -188,7 +190,7 @@ GOTdb.userStatus = () => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL userStatus @${user};`, (err,results)=>{
+        pool.query(`CALL GOTuserStatus ("${user}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -209,12 +211,12 @@ GOTdb.fileStatus = (filename) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL fileStatus @${user} @${filename};`, (err,results)=>{
+        pool.query(`CALL GOTfileStatus ("${user}" ,"${filename}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
             }
-            let answer = parseForStatusFile(results);
+            let answer = parseForStatusFile(results,filename);
             return resolve(answer);
 
         });
@@ -229,7 +231,7 @@ GOTdb.rollback = (filename, commit) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL rollback @${user} @${filename} @${commit};`, (err,results)=>{
+        pool.query(`CALL GOTrollback ("${user}", "${filename}", "${commit}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
@@ -249,7 +251,7 @@ GOTdb.newestFile = (filename) => {
 
     return new Promise((resolve, reject)=> {
 
-        pool.query(`CALL newestFile @${user} @${filename};`, (err,results)=>{
+        pool.query(`CALL GOTnewestFile ("${user}", "${filename}");`, (err,results)=>{
 
             if (err){
                 return reject(err);
