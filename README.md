@@ -37,13 +37,15 @@ Una vez con el repositorio clonado, se debe abrir "Mysql Workbench" en donde se 
 
 Dentro del editor, se selecciona la opcion de agregar documentos .sql y se añaden los archivos ("Creacion_base_tablas","GOTprocedures","Asig_ForeingKey") de la carpeta "Querys_BaseDatos".
 
-//Imagen de seleccionar archivos 
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/abrir1.png)
+
 
 ![](https://github.com/sebas0163/GOT/blob/master/Diagramas/abrir2.png)
 
 Cada de archivo debe de correrse para crear la base de datos adecuadamente.
 
-// Imagen de compilación 
+
+![](https://github.com/sebas0163/GOT/blob/master/Diagramas/compilar.png)
 
 
 ## Instrucciones de ejecución de CMAKE 
