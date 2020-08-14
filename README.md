@@ -75,6 +75,12 @@ Finalmente ejecutamos el programa
 
 Una vez esto ya se puede interactuar con el programa.
 
+En caso de querer editar el codigo se puede acceder mediante Visual Studio, asegurandose de tener las extensiones mencionadas anteriormente y configurar el buil por medio de la paleta de comandos utilizando cmake: build
+
+La configuraciod de visual debe verse asi:
+
+//VS
+
 ## Instrucciones de Ejecución 
 * Al iniciar GOT, se debe de agregar un nombre de usuario y una contraseña, esto va a identificar los datos enviados a la base.
 * Posterior se pueden usar los comandos especificados en la Wiki del proyecto, especificamente en la sección de Descripción del proyecto.
